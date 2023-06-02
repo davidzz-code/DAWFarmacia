@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;500&family=Space+Grotesk:wght@500&family=Space+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Geologica', sans-serif;
+    font-weight: 100;
+}
+
+.header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #F2E3DB;
+    background-color: #263A29;
+}
+
+.header .titulo{
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+.header .boton-logout{
+    margin-right: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(184, 5, 5);
+    color: #F2E3DB;
+    border:3px solid black;
+}
+
+.header .boton-logout:hover{
+    cursor: pointer;
+    border:3px solid #F2E3DB;
+}
+
+.contenedor{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2E3DB;
+}
+
+.contenedor .tabla-boton{
+    width: 85vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7px;
+    background-color: #41644A;
+}
+
+.tabla-boton .boton-altas{
+    width: 25%;
+    height: 10%;
+    border-radius: 45px;
+    border: 3px solid #F2E3DB;;
+    outline: none;
+    background-color: #FFC26F;
+    font-size: 20px
+}
+.tabla-boton .boton-altas:hover{
+    cursor: pointer;
+    outline: none;
+    border: 3px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 70vw;
+}
+
+table td,
+table th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+table th {
+    background-color: #263A29;
+    color: #F2E3DB;
+    font-weight: 500;
+}
+
+table tr:nth-child(even) {
+    background-color: #FFC26F;
+}
+
+table tr:nth-child(odd) {
+    background-color: #C38154;
+}
+
+table tr:hover {
+    background-color: #41644A;
+    color: #F2E3DB;
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;500&family=Space+Grotesk:wght@500&family=Space+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Geologica', sans-serif;
+    font-weight: 100;
+}
+
+.header{
+    height: 10vh;
+    background-color: #263A29;;
+}
+
+.header button{
+    margin: 10px;
+    margin-top: 13px;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    color: #F2E3DB;
+    background-color: #263A29;
+    border-color: #F2E3DB;
+}
+
+.header button:hover{
+    color: black;
+    background-color: #F2E3DB;
+}
+
+
+
+.contenedor{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #41644A;
+}
+
+.contenedor .form{
+    height: 80%;
+    width: 30%;
+    background-color: #F2E3DB;
+    border-radius: 10px;
+}
+
+.form .titulo{
+    height: 10vh;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.form .inputs{
+    height: 57vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.form .inputs input, select, button{
+    padding: 15px;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+.form .inputs input, select{
+    border: 2px solid #263A29;
+}
+
+.form .inputs button{
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: #F2E3DB;
+    border:3px solid #41644A;
+}
+
+.form .inputs button:hover{
+    background-color: #263A29;
+    color: #F2E3DB;
+}
+

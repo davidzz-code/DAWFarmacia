@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./javascript/app.js"></script>
+    <link rel="stylesheet" href="./css/altas.css">
+    <title>Altas</title>
+</head>
+<body onload="getPatients(); getMedicines()">
+    <header class="header">
+        <button onclick= "location.href = 'gestion.html'"; >Volver a gesitón</button>
+    </header>
+    <section class="contenedor">
+        <div class="form">
+            <div class="titulo">
+                Nuevo xip
+            </div>
+            <div class="inputs">
+
+                <input type="text" name="idXip" id="idXip" placeholder="ID del xip">
+                <select id="selectPacientes">
+                    <option value="" disabled selected hidden>Seleccionar medicina</option>
+                </select>
+                <select id="selectMedicinas">
+                    <option value="" disabled selected hidden>Seleccionar medicina</option>
+                </select>
+                <input type="date" name="fechaLimite" id="fechaLimite">
+                <button onclick="enviar()">Enviar</button>
+                <div class="alta"></div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

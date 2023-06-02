@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/gestion.css">
+    <script src="./javascript/app.js" defer></script>
+    <title>Gestión</title>
+</head>
+<body onload="nombreUsuario(); getTable()">
+    <header class="header">
+        <h1 class="titulo"></h1>
+        <button class="boton-logout" onclick="cerrarSesion()">Cerrar sesión</button>
+    </header>
+    <section class="contenedor">
+        <div class="tabla-boton">
+            <div id="tablaXip"></div>
+            <button class="boton-altas" onclick= "location.href = 'altas.html'">Altas</button>
+        </div>
+    </section>    
+</body>
+</html>
