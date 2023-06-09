@@ -42,3 +42,14 @@ Antes de ejecutar la aplicación, asegúrate de tener instalados los siguientes 
 3.  Configura la base de datos MySQL ejecutando el script DDL que encontrarás en el repositorio con el nombre `Farmacia_DDL.sql`.
 4.  Inicia el servidor backend ejecutando el servidor Tomcat.
 5.  Para acceder a la aplicación abre en tu navegador el archivo `login.html` ubicado en la carpeta `DAWFarmacia_Frontend`.
+
+## Imágenes de ejemplo
+- **Inicio de sesión**
+![Login](DAWFarmacia_Frontend/img/Login-farmacia.png)
+
+- **Tabla de chips**
+![Tabla de chips](DAWFarmacia_Frontend/img/TablaChips-farmacia.png)
+
+- **Alta de chips**
+![Altas](DAWFarmacia_Frontend/img/Altas-farmacia.png)
+
